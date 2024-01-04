@@ -47,6 +47,8 @@ group :development, :test do
   gem "factory_bot_rails"
   # 開発環境でメール送信をテストする
   gem "letter_opener_web"
+  # enum を日本語化する
+  gem "enum_help"
   # pry コンソールを使えるようにする。
   # N+1発生時にアラートを表示する
   gem "bullet"
